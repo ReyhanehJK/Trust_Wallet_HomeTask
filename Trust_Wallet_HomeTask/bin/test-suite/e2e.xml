@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="E2E">
+    <test name="E2E Tests">
+        <classes>
+            <class name="appium.tests.CreateWallet"/>
+            <class name="appium.tests.AddExistingWallet"/>
+            <class name="appium.tests.ManageCrypto"/>
+        </classes>
+    </test>
+</suite>
